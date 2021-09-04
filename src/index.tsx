@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './components/App/App';
 import reportWebVitals from './reportWebVitals';
-import {ThemeProvider} from "styled-components";
-import {lightTheme} from "./theme/lightTheme";
+import { ThemeProvider } from 'styled-components';
+import { lightTheme } from './theme/lightTheme';
 
 ReactDOM.render(
   <React.StrictMode>
