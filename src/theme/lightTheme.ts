@@ -1,4 +1,4 @@
-import {DefaultTheme} from "styled-components";
+import { DefaultTheme } from 'styled-components';
 
 export const lightTheme: DefaultTheme = {
   name: 'Light',
@@ -11,8 +11,9 @@ export const lightTheme: DefaultTheme = {
     text: '#333',
   },
   typography: {
-    fontSize: '14px'
+    fontSize: '14px',
+    fontFamily: 'Inter',
   },
   borderRadius: '4px',
-  spacing: (num: number) => `${num * 8}px`
-}
+  spacing: (num: number) => `${num * 8}px`,
+};

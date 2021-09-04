@@ -2,19 +2,20 @@ import 'styled-components';
 
 declare module 'styled-components' {
   export interface DefaultTheme {
-    name: string
+    name: string;
     palette: {
       primary: {
-        light: string
-        main: string
-        dark: string
-      }
-      text: string
-    }
+        light: string;
+        main: string;
+        dark: string;
+      };
+      text: string;
+    };
     typography: {
-      fontSize: string
-    }
+      fontSize: string;
+      fontFamily: string;
+    };
     borderRadius: string;
-    spacing: (space: num) => string
+    spacing: (space: num) => string;
   }
 }
